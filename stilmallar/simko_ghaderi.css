@@ -1,0 +1,134 @@
+/* Stilmall för Simko Ghaderi*/
+/*HTML*/
+
+html {
+    font-size: 16px;
+    }
+
+ /* Flex-Container och Huvudmeny */
+
+.flex-container {
+    max-width:100%;
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:flex;
+    flex-wrap: wrap;
+      margin:0 auto;
+      }
+
+    .hobbys {
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+
+    .kurdistan {
+    flex-direction: column;
+
+    } 
+
+    .lankar {
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        font-size: 1.5rem;
+        float: right;
+        justify-content: space-between;
+        background-color: black;
+
+    }   
+
+    .lankar1 {
+        color: #ff0000;
+        position: relative;
+        z-index: 1;
+        font-family: Helvetica;
+    }
+    /*Flexbox och Bodys innehåll*/
+    
+body {background-color: rgb(52, 255, 1);
+    margin: 0; 
+    padding: 0;
+
+}
+main {  
+    width: 50%;
+    margin: 0 auto;
+    height: 80%;
+}
+
+/* Sveriges Flagga */
+
+header {
+    width: 100%;
+    background-image: url(../bilder/Sweden.png);
+    background-position-y: 100px;
+} 
+
+      /*Bilder */
+
+.hobby {
+    height: 70%;
+    max-width: 100%;
+    width: 600px;
+}
+.simkobild {
+    width: 100%;
+    height: 100%;
+}
+
+/* Vänstra sidan (Flaggorna) */
+
+nav {
+    width: 20%;
+    background-image: url(../bilder/Kurdistan.jpg);
+}
+
+/*Högra sidan (Flaggorna) */
+
+.hognav {
+    width: 20%;
+    background-image: url(../bilder/Kurdistan.jpg);
+}
+
+/* Alla Rubriker */
+
+.intro {
+    font-size: 2.0rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.backgroundcheck { 
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    color: rgb(97, 15, 15);
+    font-style: oblique;
+   text-align: center;
+   position: relative;
+   top: 45px;
+   font-size: 3rem;
+}
+.Sverige {
+    color: rgb(97, 15, 15);
+    font-size: 3rem;
+    top: 25px;
+
+}
+.person {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titel {
+    display:flex;
+    position: relative;
+
+}
+
+
+
